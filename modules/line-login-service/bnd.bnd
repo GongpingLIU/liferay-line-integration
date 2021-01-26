@@ -1,0 +1,4 @@
+Bundle-Name: line-rest-rest
+Bundle-SymbolicName: com.liferay.line.rest
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration

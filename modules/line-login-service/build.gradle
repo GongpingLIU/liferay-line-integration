@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "javax.ws.rs", name: "javax.ws.rs-api"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: '4.54.0'
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly group: "org.osgi", name: "org.osgi.service.jaxrs", version: '1.0.0'	
+	compileOnly 'javax.servlet:javax.servlet-api'
+	compileInclude group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.5.1'
+	compileInclude group: 'commons-httpclient', name: 'commons-httpclient', version: '3.1'
+	compileInclude group: 'commons-codec', name: 'commons-codec', version: '1.14'
+	compileInclude group: 'avalon-framework', name: 'avalon-framework', version: '4.1.5'
+	compileInclude group: 'logkit', name: 'logkit', version: '1.0.1'	
+	compileInclude group: 'com.auth0', name: 'java-jwt', version: '3.12.0'
+}
